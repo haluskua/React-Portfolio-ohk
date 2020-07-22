@@ -4,6 +4,7 @@ $mainColor: #bada55;
   text-align: center;
   .App-header {
     background-color: $mainColor;
+    background: linear-gradient(to bottom, white, black);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
