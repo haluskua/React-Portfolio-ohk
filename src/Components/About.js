@@ -2,10 +2,13 @@ import React, { Component } from "react";
 
 export default class About extends Component {
   render() {
+      let resumeData = this.props.resumeData;
     return (
-      <div>
-        <h1>About section</h1>
-      </div>
+      <React.Fragment>
+          {
+              resumeData.aboutme
+          }
+      </React.Fragment>
     );
   }
 }
